@@ -1,6 +1,6 @@
 """
 Dispatch
-Brian Yu
+Kavya Rishi
 
 A command-line mail merge tool.
 
