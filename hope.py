@@ -5,7 +5,7 @@ from github import InputGitTreeElement
 g = Github("your token here")
 
 repo = g.get_user().get_repo('LetsLearnGit') # repo name
-file_list = [
+file_list = [#added path to files
  "//home//krishi//Desktop//hope//hope.py"
 ]
 file_names = [
