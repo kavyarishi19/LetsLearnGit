@@ -1,8 +1,8 @@
 import base64
 from github import Github
 from github import InputGitTreeElement
-
-g = Github("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")
+#you should never expose your token
+g = Github("your token here")
 
 repo = g.get_user().get_repo('LetsLearnGit') # repo name
 file_list = [
